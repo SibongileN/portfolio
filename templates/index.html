@@ -1,0 +1,253 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- Hero Section -->
+<section class="text-center mb-5">
+    <h1>SIBONGILE NKOSI</h1>
+    <p class="lead">Software Engineer | Data Analyst | Accountant | System Support</p>
+</section>
+
+<!-- About -->
+<section id="about-section" class="mb-5">
+   <div class="about-grid">
+
+    <!-- RIGHT: IMAGE (30%) -->
+    <div class="about-image">
+      <img src="/static/css/images/Sibongile Nkosi (4).jpg"  alt="About profile image">
+    </div>
+
+    <!-- LEFT: TEXT (70%) -->
+    <div class="about-text">
+      <h2>ABOUT</h2>
+      <p>
+        I am a finance and data professional focused on building data-driven solutions in fintech and modern finance environments.
+         I hold a BCom in Accounting, with strong foundations in Financial Accounting, Management Accounting, Auditing, and Taxation,
+          alongside a Data Analytics certification and ongoing studies in Data Engineering.
+      </p>
+      <p>
+        With hands-on experience in data management, system development, and software engineering within the finance space,
+         I bridge financial expertise and technical skills to deliver scalable, accurate, and business-ready data solutions.
+      </p>
+    </div>
+
+    
+
+  </div>
+</section>
+
+
+
+<!-- Skills -->
+<section id="skills" class="mb-5">
+    <h2 class="mb-3"> KEY TECHNOLOGIES</h2>
+
+    <div class="skills-wrapper">
+        <div class="skills-track">
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">Bootstrap</span>
+            <span class="skill">Flask</span>
+            <span class="skill">Azure</span>
+            <span class="skill">SQL</span>
+            <span class="skill">Power BI</span>
+            <span class="skill">Excel</span>
+            <span class="skill">Windows server</span>
+            <span class="skill">AI</span>
+
+            <!-- Duplicate for seamless loop -->
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">Bootstrap</span>
+            <span class="skill">Flask</span>
+            <span class="skill">Azure</span>
+            <span class="skill">SQL</span>
+            <span class="skill">Power BI</span>
+            <span class="skill">Excel</span>
+            <span class="skill">Windows server</span>
+            <span class="skill">AI</span>
+            <span class="skill">Python</span>
+
+            
+        </div>
+    </div>
+</section>
+<!-- Projects -->
+
+<section id="projects" class="mb-5">
+    
+     <div class="projects-container">
+         <h4 id="project-heading">PROJECTS</h4>
+
+         
+        <div>
+            <h3>Software Development</h3>
+
+        
+            <div class="row row-equal">
+                <div class="col-md-4">
+                    <div class="card simplepay">
+                        <div class="card-body">
+                            <a class="project-link" href="http://sisonkelearnerapplication.netlify.app" target="_blank"><img class="project-icon" src="{{ url_for('static', filename='css/images/9.png') }}" alt=""  target="_blank" > </a> 
+                            <h5 class="cert-title">Sync Pay</h5>
+                            <p class="tools">Tools: JavaScript, SQL, OCR, API, Python</p>
+                        </div>
+                    </div>
+                </div>
+            
+
+                <div class="col-md-4">
+                    <div class="card weather-site">
+                        <div class="card-body">
+                            
+                        <a id="project-link" href="https://weather-web-application-shecodes.netlify.app/" target="_blank"><img class="project-icon" src="{{ url_for('static', filename='css/images/weather.png') }}" target="_blank" ></a>
+                            <h5 class="c-title">Weather Application</h5>
+                        <p class="tools">Tools: JS, CSS, HTML</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card form">
+                        <div class="card-body">
+                            
+                            <a class="project-link" href="http://sisonkelearnerapplication.netlify.app" target="_blank"><img class="project-icon" src="{{ url_for('static', filename='css/images/form.png') }}" alt=""  target="_blank" > </a> 
+                            <h5 class="cert-title">Application Form</h5>
+                            <p class="tools">Tools: HTML and CSS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card Worldclock">
+                        <div class="card-body">
+                            
+                            <a id="project-link" href="https://worldclocksn.netlify.app/" target="_blank"><img class="project-icon" src="{{ url_for('static', filename='css/images/wc.png') }}" alt="" target="_blank" > </a>
+                            <h5 class="cert-title">World Clock</h5>
+                            <p class="tools">Tools: JS, CSS, HTML</p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                     <h3>Data Analytics</h3>
+                <div class="col-md-4">
+                    <div class="card adventureworks">
+                        <div class="card-body">
+                            
+                             <a id="project-link" href="https://github.com/SibongileN/Adventureworks-sql-analysis" target="_blank"><img class="project-icon" src="https://cdn-icons-png.flaticon.com/512/4299/4299956.png" alt="" target="_blank" > </a>
+                            <h5 class="cert-title">Adventureworks: SQL</h5>
+                            <p class="tools">Tools: 
+                                Data cleaning, aggregations, windows functions, joins, grouping
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4">
+                    <div class="card adventureworks">
+                        <div class="card-body">
+                            
+                             <a id="project-link" href="https://github.com/SibongileN/Electricity-cost-and-consumption-analysis" target="_blank"><img class="project-icon" src="https://cdn.iconscout.com/icon/free/png-256/free-power-bi-logo-icon-svg-download-png-2701891.png" alt="" target="_blank" > </a>
+                            <h5 class="cert-title">Electricity consumption: Power BI</h5>
+                            <p class="tools">Tools: 
+                                Excel, Power Query, DAX, Power BI, Storytelling
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4">
+                    <div class="card adventureworks">
+                        <div class="card-body">
+                            
+                             <a id="project-link" href="https://worldclocksn.netlify.app/" target="_blank"><img class="project-icon" src="https://icons.veryicon.com/png/o/miscellaneous/xdh-font-graphics-library/excel-50.png" alt="" target="_blank" > </a>
+                            <h5 class="cert-title">Bike House: Excel</h5>
+                            <p class="tools">Tools: 
+                                Data cleaning, Functions, Pivot tables, Dashboards
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="certifications" class="mb-5">
+    <h4>CERTICATIONS</h4>
+    <div class="cert-container">
+        <div>
+    
+            <div class="row row-equal">
+                <div class="col-md-4">
+                    <div class="card da">
+                        <div class="card-body">
+                            
+                           <img class="cert-icon" src="{{ url_for('static', filename='css/images/dadaa.png') }}" target="_blank" >
+                            <h5 class="cert-title">Data Analytics</h5>
+                            <h6>
+                                <img class="grad-icon" src="data:image/png;base64,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" alt="">
+                                ALX Africa
+                            </h6>
+                            <p class="date-of-completion"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-patch-check-fill" viewBox="0 0 16 16">
+                                <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708"/>
+                                </svg>
+                                 <span class="date"><strong>December 2025</strong> </span>
+                            </p>
+                           <p class="tools">Developed core data modeling, spreadsheet, and SQL skills to analyze complex data, uncover insights, and communicate findings through clear, impactful visual stories.</p>
+                            <a id="cert-link" href="https://drive.google.com/file/d/1dwkYG2rBPfMcly9mhE-tVJ1LxikIRQMv/view?usp=drive_link" target="_blank"><button class="view-cert"> View Certificate</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card ai">
+                        <div class="card-body">
+                            
+                            <img class="cert-icon" src="{{ url_for('static', filename='css/images/aii.png') }}" alt="" target="_blank" > 
+                            <h5 class="cert-title">GenAI for Software Engineers</h5>
+                            <h6>
+                                <img class="grad-icon" src="data:image/png;base64,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" alt="">
+                                WeThink Code
+                            </h6>
+                            <p class="date-of-completion"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-patch-check-fill" viewBox="0 0 16 16">
+                                <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708"/>
+                                </svg>
+                                 <span class="date"><strong>November 2025</strong> </span>
+                            </p>
+                            <p class="tools">Applied prompt engineering and LLM pair programming techniques to accelerate code understanding, improve documentation, and streamline testing, debugging, and refactoring workflows.</p>
+                            <a id="cert-link" href="https://drive.google.com/file/d/1dCSyH-olQYiWWDc8Xhu6bf5bK9PVP9PL/view?usp=drive_link" target="_blank"><button class="view-cert"> View Certificate</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card web-dev">
+                        <div class="card-body">
+                            <img class="cert-icon" src="{{ url_for('static', filename='css/images/we.png') }}" alt=""  target="_blank" > 
+                            <h5 class="cert-title">Web Development</h5>
+                            <h6>
+                                <img class="grad-icon" src="data:image/png;base64,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" alt="">
+                                SheCodes
+                            </h6>
+                            <p class="date-of-completion"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-patch-check-fill" viewBox="0 0 16 16">
+                                <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708"/>
+                                </svg>
+                                 <span class="date"><strong>September 2024</strong> </span>
+                            </p>
+                            <p class="card-text">Comprehensive foundation in front-end development, with hands-on experience in HTML, CSS, JavaScript, Bootstrap, and version control using Git and GitHub.</p>
+                            <a id="cert-link" href="https://drive.google.com/file/d/1DfTHZDvBQLiXlF1CHXznoXOJJCwiRFTH/view?usp=drive_link" target="_blank"><button class="view-cert"> View Certificate</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+{% endblock %}
